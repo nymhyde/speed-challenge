@@ -3,7 +3,7 @@
 *Goal : : Predict speed of car from dashcam video*
 -----------
 
-Data can be downloaded from Comma.Ai's challenge ![repo](https://github.com/commaai/calib_challenge)
+Data can be downloaded from Comma.Ai's challenge [repo](https://github.com/commaai/calib_challenge)
 Split up the data into train(90%) and validation(10%). 
 
 Estimated hf factor : : 7127.9783 
