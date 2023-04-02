@@ -3,7 +3,7 @@
 *Goal : : Predict speed of car from dashcam video*
 -----------
 
-Data can be downloaded from Comma.Ai's challenge [repo](https://github.com/commaai/calib_challenge)
+Data can be downloaded from Comma.Ai's challenge [repo](https://github.com/commaai/speedchallenge)
 Split up the data into train(90%) and validation(10%). 
 
 Estimated hf factor : : 7127.9783 
@@ -30,10 +30,12 @@ Key points are tracked using a mask as shown in the sample gif. Rotation of came
 
 Referred to this [blog post](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html) for some guidance.
 <br>
-And this [paper](http://www.sc.ehu.es/ccwgrrom/transparencias/articulos-alumnos-doct-2002/edurne-barrenechea/00660838.pdf) for the assumptions made and the derivation they lead to.
+And this [paper](https://www.researchgate.net/publication/3298798_The_use_of_optical_flow_for_road_navigation) for the assumptions made and the derivation they lead to.
 
 
 ## To - Do
 
-[ ] = Add Test MSE
+[ ] = Add Test MSE : need to be obtained from Comma AI team
+[ ] = Use a different open-source dataset
+
 
